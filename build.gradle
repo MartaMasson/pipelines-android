@@ -25,6 +25,7 @@ task clean(type: Delete) {
 // Define versions in a single place
 ext {
     // Sdk and tools
+    multiDexEnabled true
     minSdkVersion = 10
     targetSdkVersion = 25
     compileSdkVersion = 25
