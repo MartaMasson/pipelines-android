@@ -32,3 +32,11 @@ steps:
     artifactName: 'drop'
     artifactType: 'container'
   displayName: Publish artifacts
+  
+- task: AppCenterDistribute@3
+  inputs:
+    serverEndpoint: 'App Center Android App'
+    appSlug: 'marta.masson-guimafordev.onmicrosoft.com/Teste'
+    appFile: 'drop/app/build/outputs/apk/prod/debug/app-prod-debug.apk'
+    releaseNotesOption: 'input'
+    destinationType: 'groups'
