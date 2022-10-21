@@ -33,7 +33,7 @@ task clean(type: Delete) {
 // Define versions in a single place
 ext {
     // Sdk and tools
-    multiDexEnabled true
+    // multiDexEnabled true
     minSdkVersion = 16
     targetSdkVersion = 28
     compileSdkVersion = 28
