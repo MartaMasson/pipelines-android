@@ -37,7 +37,7 @@ steps:
   inputs:
     serverEndpoint: 'App Center Android App'
     appSlug: 'marta.masson-guimafordev.onmicrosoft.com/Teste'
-    appFile: 'drop/app/build/outputs/apk/prod/debug/app-prod-debug.apk'
+    appFile: 'app/build/outputs/apk/prod/debug/app-prod-debug.apk'
     releaseNotesInput: 'test 123'
     releaseNotesOption: 'input'
     destinationType: 'groups'
