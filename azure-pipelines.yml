@@ -11,11 +11,11 @@ steps:
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
-    gradleOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '11'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
+    #gradleOptions: '-Xmx3072m'
+    #javaHomeOption: 'JDKVersion'
+    #jdkVersionOption: '11'
+    #jdkArchitectureOption: 'x64'
+    publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug test'
   displayName: gradlew assembleDebug test
